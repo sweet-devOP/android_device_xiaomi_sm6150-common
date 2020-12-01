@@ -74,6 +74,9 @@ on post-fs-data
     mkdir /mnt/vendor/persist/fpc 0770 system system
     mkdir /data/vendor/fpdump 0770 system system
 
+    # Disable WiFi Aware feature.
+    mount none /dev/null /vendor/etc/permissions/android.hardware.wifi.aware.xml bind
+
 on boot
     start rmt_storage
     start rfs_access
