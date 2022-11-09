@@ -84,6 +84,10 @@ on post-fs-data
     # Disable WiFi Aware feature.
     mount none /dev/null /vendor/etc/permissions/android.hardware.wifi.aware.xml bind
 
+    # Workarround for cache
+    rm /data/resource-cache
+    rm /data/system/package_cache
+
 on boot
     start rmt_storage
     start rfs_access
