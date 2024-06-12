@@ -270,6 +270,7 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     CarrierConfigCommon \
     FrameworksResCommon \
+    DeviceAsWebcam \
     NetworkStackResCommon \
     SettingsResCommon \
     SystemUIResCommon \
