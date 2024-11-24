@@ -10,6 +10,9 @@ persist.vendor.cne.feature=1
 # Display
 ro.surface_flinger.has_wide_color_display=true
 
+#Disbale FPS capping for games
+debug.graphics.game_default_frame_rate.disabled=true
+
 # FUSE
 persist.sys.fuse.passthrough.enable=true
 
