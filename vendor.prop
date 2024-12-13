@@ -228,6 +228,11 @@ ro.telephony.default_cdma_sub=0
 ro.telephony.default_network=22,22
 telephony.lteOnCdmaDevice=1
 
+# Suspend
+suspend.short_suspend_threshold_millis=2000
+suspend.max_sleep_time_millis=40000
+suspend.short_suspend_backoff_enabled=true
+
 # RCS
 persist.rcs.supported=1
 
