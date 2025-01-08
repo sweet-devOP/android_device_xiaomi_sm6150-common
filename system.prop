@@ -43,6 +43,17 @@ ro.mot.eri.losalert.delay=100
 ro.vold.umsdirtyratio=20
 power.saving.mode=1
 
+# Ram Management
+ro.config.fha_enable=true
+ro.sys.fw.bg_apps_limit=60
+ro.config.dha_cached_max=48
+ro.config.dha_empty_max=72
+ro.config.dha_empty_init=48
+ro.config.dha_lmk_scale=0.3
+ro.config.dha_th_rate=2.5
+ro.config.sdha_apps_bg_max=96
+ro.config.sdha_apps_bg_min=16
+
 # Recovery
 ro.recovery.ui.margin_height=48
 
