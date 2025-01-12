@@ -182,9 +182,6 @@ persist.sys.sf.color_mode=9
 # Disable vsync for cpu rendered apps
 debug.cpurend.vsync=false
 
-# FRP
-ro.frp.pst=/dev/block/bootdevice/by-name/frp
-
 # FS-verity
 ro.apk_verity.mode=2
 
