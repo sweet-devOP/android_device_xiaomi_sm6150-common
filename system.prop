@@ -37,6 +37,7 @@ mmp.enable.3g2=true
 persist.mm.enable.prefetch=true
 
 # Radio
+persist.radio.VT_CAM_INTERFACE=2
 ril.subscription.types=RUIM
 persist.sys.radio.force_lte_ca=true
 
