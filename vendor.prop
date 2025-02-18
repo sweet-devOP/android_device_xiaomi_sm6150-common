@@ -172,6 +172,7 @@ vendor.display.enable_optimize_refresh=1
 vendor.display.enable_perf_hint_large_comp_cycle=1
 vendor.gralloc.disable_ubwc=0
 vendor.display.qdcm.mode_combine=1
+persist.mm.enable.prefetch=true
 
 # Display - Set color mode to Adaptive by default
 persist.sys.sf.color_saturation=1.0
