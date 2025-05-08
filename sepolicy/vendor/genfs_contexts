@@ -31,6 +31,12 @@ genfscon sysfs /devices/platform/soc/soc:fingerprint_fpc/wakeup_enable          
 # Haptic
 genfscon sysfs /devices/platform/soc/a8c000.i2c/i2c-2/2-005a/ulevel                  u:object_r:sysfs_vibrator:s0
 
+# AxionAOSP Kernel Tuning
+genfscon proc /sys/vm/dirty_writeback_centisecs                                 u:object_r:proc_dirty:s0
+genfscon proc /sys/vm/vfs_cache_pressure                                        u:object_r:proc_drop_caches:s0
+genfscon proc /sys/vm/dirty_ratio                                               u:object_r:proc_dirty:s0
+genfscon proc /sys/kernel/sched_migration_cost_ns                               u:object_r:proc_sched:s0
+
 # LED
 genfscon sysfs /devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-05/c440000.qcom,spmi:qcom,pm6150l@5:qcom,leds@d000/leds/left u:object_r:vendor_sysfs_graphics:s0
 genfscon sysfs /devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-05/c440000.qcom,spmi:qcom,pm6150l@5:qcom,leds@d000/leds/right u:object_r:vendor_sysfs_graphics:s0
